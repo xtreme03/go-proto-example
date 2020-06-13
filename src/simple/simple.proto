@@ -1,0 +1,9 @@
+syntax="proto3";
+package simplepb;
+option go_package ="simplepb";
+
+message SimpleMessage{
+    int32 message_code=1;
+    string message=2;
+    repeated int32 list=3;
+}
